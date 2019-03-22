@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/AppFont.AppColorPrimary.AppSmallText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text=" Small Text" />
+    <!--android:layout_gravity="center_horizontal"-->
+
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/AppFont.AppColorPrimary.AppMediumText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medium Text" />
+    <!--android:layout_gravity="center_horizontal"-->
+
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/AppFont.AppColorPrimary.AppLargeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Large Text" />
+    <!--android:layout_gravity="center_horizontal"-->
+
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/AppFont.AppExtraLargeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extra Large Text" />
+    <!-- android:layout_gravity="center_horizontal"-->
+
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/AppFont.AppExtraLargeTextLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extra Large Light" />
+
+    <RadioButton
+        style="@style/MyRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MyRadioButton"
+       />
+    <TextView
+        android:id="@+id/textViewGrd"
+        style="@style/TextViewGradient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="shadow"
+        android:textColor="#616161"
+        android:shadowColor="#5000"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"/>
+</LinearLayout>
